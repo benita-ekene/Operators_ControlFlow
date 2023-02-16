@@ -17,7 +17,7 @@ Symbols for Bitwise Operators include:<br>
 <<	(Zero fill left shift) -	Shifts left by pushing zeros in from the right and let the leftmost bits fall off<br>
 
 B <h3>For each JavaScript Operator, write 2 examples.</h3>
-**Arithmetic Operators<br>
+**Arithmetic Operators**<br>
 let y = 2;<br>
 let x = 3;<br>
 console.log(y+x);<br>
