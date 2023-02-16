@@ -1,6 +1,6 @@
 # JavaScript Operators & Control Flow
 
-A  <h3>Symbols for the Javascript operators below:</h3>
+A  <h3>Symbols for the Javascript operators:</h3>
 1. Arithmetic Operators<br>
 Symbols for Arithmetic Operators include:  +, -, *, /, %, **, ++ and --<br>
 2. Assignment Operators<br>
@@ -16,5 +16,11 @@ Symbols for Bitwise Operators include:<br>
 ~	(NOT) -	Inverts all the bits<br>
 <<	(Zero fill left shift) -	Shifts left by pushing zeros in from the right and let the leftmost bits fall off<br>
 
-B <h3>For each JavaScript Operator, write 2 examples.
-</h3>
+B <h3>For each JavaScript Operator, write 2 examples.</h3>
+**Arithmetic Operators<br>
+let y = 2;<br>
+let x = 3;<br>
+console.log(y+x);<br>
+console.log(y-x);<br>
+console.log(y*x);<br>
+
