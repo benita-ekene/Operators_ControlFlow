@@ -1,6 +1,6 @@
 # JavaScript Operators & Control Flow
 
-1  <h3>Symbols for Javascript operators:</h3>
+**Q1** <h3>Symbols for Javascript operators:</h3>
 1. Arithmetic Operators<br>
 Symbols for Arithmetic Operators include:  +, -, *, /, %, **, ++ and --<br>
 2. Assignment Operators<br>
@@ -16,7 +16,7 @@ Symbols for Bitwise Operators include:<br>
 ~	(NOT) -	Inverts all the bits<br>
 <<	(Zero fill left shift) -	Shifts left by pushing zeros in from the right and let the leftmost bits fall off<br>
 
-2 <h3>For each JavaScript Operator, write 2 examples.</h3>
+**Q2** <h3>For each JavaScript Operator, write 2 examples.</h3>
 **Arithmetic Operators**<br>
 let y = 2;<br>
 let x = 3;<br>
@@ -42,10 +42,10 @@ if (x <= 5 && y >= 2) {<br>
 console.log(10 == 23 & 30 == 41)<br>
 console.log(10 == 23 | 30 == 41)<br>
 
-3 <h3>Using if…else conditional statement, write a program that will help Bolatito determine the subjects s she will be taking as an Art student</h3>
+**Q3** <h3>Using if…else conditional statement, write a program that will help Bolatito determine the subjects s she will be taking as an Art student</h3>
 check the file: SubjectGroup.js<br>
 
-4 <h3>The result when the following program is executed</h3>
+**Q4** <h3>The result when the program below is executed</h3>
 for (let i = 1; i < 20; i += 7) {<br>
   console.log(i);<br>
 }<br>
@@ -54,5 +54,5 @@ for (let i = 1; i < 20; i += 7) {<br>
 8<br>
 15<br>
 
-5 <h3>Write a program that takes a positive number (num) and find the power of 2 nearest to that number</h3>
+**Q5** <h3>Write a program that takes a positive number (num) and find the power of 2 nearest to that number</h3>
 check the file: NumNearest.js
