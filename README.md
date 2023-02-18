@@ -1,6 +1,6 @@
 # JavaScript Operators & Control Flow
 
-A  <h3>Symbols for the Javascript operators:</h3>
+1  <h3>Symbols for the Javascript operators:</h3>
 1. Arithmetic Operators<br>
 Symbols for Arithmetic Operators include:  +, -, *, /, %, **, ++ and --<br>
 2. Assignment Operators<br>
@@ -16,11 +16,43 @@ Symbols for Bitwise Operators include:<br>
 ~	(NOT) -	Inverts all the bits<br>
 <<	(Zero fill left shift) -	Shifts left by pushing zeros in from the right and let the leftmost bits fall off<br>
 
-B <h3>For each JavaScript Operator, write 2 examples.</h3>
+2 <h3>For each JavaScript Operator, write 2 examples.</h3>
 **Arithmetic Operators**<br>
 let y = 2;<br>
 let x = 3;<br>
 console.log(y+x);<br>
-console.log(y-x);<br>
 console.log(y*x);<br>
+**Assignment Operators**<br>
+let y = 2;<br>
+y+= 3;<br>
+**Comparison Operators**
+let y = 2;
+console.log(y < 0);
+console.log(y > 0);
+**Logical Operators**
+let x = 5;<br>
+let y = 2;<br>
+if (x <= 5 || y >= 2) {<br>
+  console.log("js dynamics")<br>
+}<br>
+if (x <= 5 && y >= 2) {<br>
+  console.log("js dynamics")<br>
+}<br>
+**Bitwise Operators**
+console.log(10 == 23 & 30 == 41)<br>
+console.log(10 == 23 | 30 == 41)<br>
 
+3 **Using if…else conditional statement, write a program that will help Bolatito determine the subjects s she will be taking as an Art student**
+check the file: SubjectGroup.js
+
+4 **The result when the following program is executed**
+for (let i = 1; i < 20; i += 7) {<br>
+  console.log(i);<br>
+}<br>
+**Output**
+1<br>
+8<br>
+15<br>
+
+**Write a program that takes a positive number (num) and find the power of 2 nearest to that number**
+check the file: NumNearest.js
