@@ -10,7 +10,7 @@ else if (Science_Group === ("Physics, Chemistry, Biology, Technical Drawing") &&
   console.log("Subjects for Science students are: " + "Physics, Chemistry, Biology, Technical Drawing");
 }
 else if (Social_Science_Group === ("Accounting, Commerce, Marketing, Geography") && General_Subjects === ("English, Mathematics")) {
-  console.log("Subjects for Social Science students are:  " + "Accounting, Commerce, Marketing, Geography");
+  console.log("Subjects for Social Science students are: " + "Accounting, Commerce, Marketing, Geography");
 }
 else {
   console.log("General Subject");
