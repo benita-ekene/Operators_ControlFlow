@@ -1,4 +1,4 @@
-const num = 20; 
+const num = 20; // could be replaced with any number
 let pwr = 1;
 
 while (pwr <= num) {
